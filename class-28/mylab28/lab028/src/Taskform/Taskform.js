@@ -24,7 +24,7 @@ export default class Taskform extends React.Component {
 
   render(){
     return(
-      <form onSubmit={this.handleSubmit} >
+      <form className="formContainer" onSubmit={this.handleSubmit} >
         <input
           type="text"
           name="title"
